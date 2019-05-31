@@ -144,3 +144,49 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+header nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 60px;
+    align-items: baseline;
+    justify-content: space-around;
+    display: flex;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo-logo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbo-about {
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+button {
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
